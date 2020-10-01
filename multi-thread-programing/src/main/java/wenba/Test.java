@@ -6,7 +6,8 @@ package wenba;
  * @description：
  */
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        //Add it inside a try method
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
